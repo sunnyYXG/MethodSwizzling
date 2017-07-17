@@ -19,7 +19,7 @@
 		0D2567DA1F15BBD7005D577A /* UIViewController+EventGather.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2567D81F15BBD7005D577A /* UIViewController+EventGather.m */; };
 		0D2567DD1F15BC19005D577A /* NSArray+Save.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2567DC1F15BC19005D577A /* NSArray+Save.m */; };
 		0D2567E11F15C570005D577A /* NSObject+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2567E01F15C570005D577A /* NSObject+Runtime.m */; };
-		0D2567E41F15CB13005D577A /* NSMutableDictionary+Save.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2567E31F15CB13005D577A /* NSMutableDictionary+Save.m */; };
+		0D2567E41F15CB13005D577A /* NSDictionary+Save.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2567E31F15CB13005D577A /* NSDictionary+Save.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,8 +64,8 @@
 		0D2567DC1F15BC19005D577A /* NSArray+Save.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Save.m"; sourceTree = "<group>"; };
 		0D2567DF1F15C570005D577A /* NSObject+Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Runtime.h"; sourceTree = "<group>"; };
 		0D2567E01F15C570005D577A /* NSObject+Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Runtime.m"; sourceTree = "<group>"; };
-		0D2567E21F15CB13005D577A /* NSMutableDictionary+Save.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Save.h"; sourceTree = "<group>"; };
-		0D2567E31F15CB13005D577A /* NSMutableDictionary+Save.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Save.m"; sourceTree = "<group>"; };
+		0D2567E21F15CB13005D577A /* NSDictionary+Save.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Save.h"; sourceTree = "<group>"; };
+		0D2567E31F15CB13005D577A /* NSDictionary+Save.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Save.m"; sourceTree = "<group>"; };
 		0D2567E51F15D45F005D577A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -176,8 +176,8 @@
 				0D2567D81F15BBD7005D577A /* UIViewController+EventGather.m */,
 				0D2567DB1F15BC19005D577A /* NSArray+Save.h */,
 				0D2567DC1F15BC19005D577A /* NSArray+Save.m */,
-				0D2567E21F15CB13005D577A /* NSMutableDictionary+Save.h */,
-				0D2567E31F15CB13005D577A /* NSMutableDictionary+Save.m */,
+				0D2567E21F15CB13005D577A /* NSDictionary+Save.h */,
+				0D2567E31F15CB13005D577A /* NSDictionary+Save.m */,
 			);
 			path = SwizzlingClass;
 			sourceTree = "<group>";
@@ -327,7 +327,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D2567E41F15CB13005D577A /* NSMutableDictionary+Save.m in Sources */,
+				0D2567E41F15CB13005D577A /* NSDictionary+Save.m in Sources */,
 				0D2567D91F15BBD7005D577A /* NSString+Save.m in Sources */,
 				0D2567DD1F15BC19005D577A /* NSArray+Save.m in Sources */,
 				0D2567E11F15C570005D577A /* NSObject+Runtime.m in Sources */,

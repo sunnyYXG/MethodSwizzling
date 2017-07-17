@@ -38,9 +38,9 @@
     NSMutableArray *marrr= [NSMutableArray new];
     [marrr addObject:str];
 
-    NSString *aa= nil;
-    NSMutableDictionary *mdic = [NSMutableDictionary new];
-    [mdic setObject:aa forKey:@"key"];
+//    NSString *aa= nil;
+//    NSMutableDictionary *mdic = [NSMutableDictionary new];
+//    [mdic setObject:aa forKey:@"key"];
     
     
 }

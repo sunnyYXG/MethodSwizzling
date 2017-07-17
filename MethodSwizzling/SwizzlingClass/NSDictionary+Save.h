@@ -1,5 +1,5 @@
 //
-//  NSMutableDictionary+Save.h
+//  NSDictionary+Save.h
 //  MethodSwizzling
 //
 //  Created by rongyun on 2017/7/12.
@@ -9,5 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface NSMutableDictionary (Save)
+
+@end
+
+@interface NSDictionary (Save)
 
 @end
